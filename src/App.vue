@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <header>OSM</header>
     <router-view/>
   </div>
 </template>
@@ -12,7 +13,7 @@ html, body, #app {
 
 #app {
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 4em 1fr;
   grid-auto-rows: minmax(80px, auto);
 }
 </style>

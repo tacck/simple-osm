@@ -16,4 +16,8 @@ html, body, #app {
   grid-template-rows: 120px 1fr;
   grid-auto-rows: minmax(80px, auto);
 }
+
+header {
+  background-color: black;
+}
 </style>

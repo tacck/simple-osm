@@ -13,7 +13,7 @@ html, body, #app {
 
 #app {
   display: grid;
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: 120px 1fr;
   grid-auto-rows: minmax(80px, auto);
 }
 </style>
